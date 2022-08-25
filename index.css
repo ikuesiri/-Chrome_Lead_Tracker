@@ -1,0 +1,84 @@
+:root {
+    --body-bg: #000000;
+    --purple-styling: #ad2b91;
+    --white-styling: #f5f5f5;
+}
+
+*{
+    margin: 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+html,body {
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    min-width: 400px;
+    background-color: var(--body-bg);
+    color: var(--white-styling);
+}
+
+#container {
+    min-height: 150px;
+    margin: 10px auto;
+    width: 95%;
+
+}
+
+input {
+    border: none;
+    background-color: var(--white-styling);
+    border: 1px solid var(--purple-styling);
+    border-radius: 5px;
+    color: var(--purple-styling);
+    display: block;
+    font-weight: 900;
+    margin: 5 auto ;
+    padding:8px;
+    width: 100%;
+    outline: none;
+
+}
+
+button {
+    background-color: var(--purple-styling);
+    border: 1px solid var(--purple-styling);
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0 20px;
+    padding: 5px 10px;
+}
+
+
+
+#delete-btn {
+    color: var(--purple-styling);
+    background-color: var(--white-styling);
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+
+li {
+   word-spacing:5px;
+
+}
+
+a {
+    color: var(--white-styling);
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--purple-styling);
+}
